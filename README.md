@@ -52,8 +52,8 @@ On changes about status of Covid-19 virus on the official website - [https://www
 	* Create a cron job to recieve updates on changes in status
 	``` 
 	crontab -e # Opens an editor
-	# Run the bot every 5 minutes
-	*/5 * * * * cd $PATH_TO_CLONE_DIR;./main
+	# Run the bot every 10 minutes
+	*/10 * * * * cd $PATH_TO_CLONE_DIR;./main
 	```
 
 ## Additional Info
