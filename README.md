@@ -1,6 +1,6 @@
 <p align="center">
 	<h1 align="center">Mattermost Virus Tracker Bot</h1>
-	<h5 align="center">Bot that notifies Mattermost channel about the status of Covid-19 virus in India (by scanning the website - [https://www.mohfw.gov.in/](https://www.mohfw.gov.in/)</h5>
+	<h5 align="center">Bot that notifies Mattermost channel about the status of Covid-19 virus in India (by scanning the website - https://www.mohfw.gov.in/)</h5>
 </p>
 
 
