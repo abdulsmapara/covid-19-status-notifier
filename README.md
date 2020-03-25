@@ -43,7 +43,7 @@ On changes about status of Covid-19 virus on the official website - [https://www
     git clone https://github.com/abdulsmapara/mattermost-virus-tracker.git
     ```
 	* ``` cd mattermost-virus-tracker```
-	* Open consts.go and update ```<WEBHOOK-URL>``` with the webhook url
+	* Open ```consts.go``` and update ```<WEBHOOK-URL>``` with the webhook url
 	* Build the bot
 	```
 	go build main.go consts.go utils.go
