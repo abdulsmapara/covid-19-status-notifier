@@ -46,11 +46,11 @@ On changes about status of Covid-19 virus on the official website - [https://www
 	* ``` cd mattermost-virus-tracker```
 	* Open ```consts.go``` and update ```<WEBHOOK-URL>``` with the webhook url
 	* Build the bot
-	```
+	```bash
 	go build main.go consts.go utils.go
 	```
 	* Create a cron job to recieve updates on changes in status
-	``` 
+	```bash 
 	crontab -e # Opens an editor
 	# Run the bot every 10 minutes
 	*/10 * * * * cd $PATH_TO_CLONE_DIR;./main
