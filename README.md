@@ -39,13 +39,18 @@ On changes about status of Covid-19 virus on the official website - [https://www
 	* ```go get github.com/olekukonko/tablewriter```
 - Good to Go:
 	* Clone this repository
-	    ``` git clone https://github.com/abdulsmapara/mattermost-virus-tracker.git```
+	    ``` 
+	    	git clone https://github.com/abdulsmapara/mattermost-virus-tracker.git
+	    ```
 	* ``` cd mattermost-virus-tracker```
 	* Open consts.go and update ```<WEBHOOK-URL>``` with the webhook url
 	* Build the bot
-		```go build main.go consts.go utils.go```
+		```
+		go build main.go consts.go utils.go
+		```
 	* Create a cron job to recieve updates on changes in status
-		``` crontab -e # Opens an editor
+		``` 
+			crontab -e # Opens an editor
 			# Run the bot every 5 minutes
 			*/5 * * * * cd $PATH_TO_CLONE_DIR;./main
 		```	
