@@ -9,7 +9,7 @@
 - [Demonstration](#demonstration)
 - [Features](#features)
 - [Installation](#installation)
-- [Info](#info)
+- [Additional Info](#additional-info)
 
 
 ## About-the-bot
@@ -22,14 +22,13 @@ On changes about status of Covid-19 virus on the official website - [https://www
 
 ## Features
 
-- Get notifications on Mattermost
+- Get notifications on Mattermost :
 	* New Corona Virus cases happening in India
-	* How many Indian nationals have Corona Virus per State?
-	* How many deaths happened per State?
-	* New States getting the virus
+	* How many Indian nationals have Corona Virus per state ?
+	* How many deaths happened per state ?
+	* New states getting the virus
 - Source is the official government website, so it is reliable
 - Logs important events in ```info.log```
-- Released under Apache 2.0 license
 
 ## Installation
 
@@ -57,7 +56,7 @@ On changes about status of Covid-19 virus on the official website - [https://www
 	*/5 * * * * cd $PATH_TO_CLONE_DIR;./main
 	```
 
-## Info
+## Additional Info
 
-Created by [@abdulsmapara](https://github.com/abdulsmapara)
-
+ - Created by [@abdulsmapara](https://github.com/abdulsmapara)
+ - Released under Apache 2.0 license
