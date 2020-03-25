@@ -41,8 +41,12 @@ func getData() ([]string, [][]string, []string){
 					}
 				}
 				if count_data == 5 {
-					for _,val := range data { 
-						final_row = append(final_row, strings.Replace(val," ","",100))
+					for ind,val := range data { 
+						if ind != 0{
+							final_row = append(final_row, strings.Replace(val," ","",100))
+						} else {
+							final_row = append(final_row, val)
+						}
 					}
 				} else if count_data > 0 {
 					row = append(row, data)
