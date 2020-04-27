@@ -17,12 +17,11 @@ On changes about status of Covid-19 virus on the official website - [https://www
 
 ## Demonstration
 
+#### Demo on Mattermost Channel
 ![Image-Demo](https://github.com/abdulsmapara/Github-Media/blob/master/screenshot1.1.png)
-<p align="center">Demo on Mattermost Channel</p>
 
+#### Notification by Slack
 ![Image-Demo](https://github.com/abdulsmapara/Github-Media/blob/master/covid-19-status-notifier/slack-notification.png)
-<p align="center">Notification by Slack</p>
-
 
 ## Features
 
