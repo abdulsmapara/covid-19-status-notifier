@@ -1,6 +1,6 @@
 <p align="left">
 	<h1 align="left">Covid-19 Status Notifier</h1>
-	<h5 align="left">Bot that notifies Mattermost/Slack channel about the status of Covid-19 virus in India (by scanning the website - https://www.mohfw.gov.in/)</h5>
+	<h3 align="left">Bot that notifies Mattermost/Slack channel about the status of Covid-19 virus in India (by scanning the website - https://www.mohfw.gov.in/)</h3>
 </p>
 
 
