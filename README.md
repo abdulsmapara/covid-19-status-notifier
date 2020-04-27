@@ -7,7 +7,7 @@
 ## Table of Content
 - [About-the-bot](#about-the-bot)
 - [Demonstration](#demonstration)
-- [Features](#features)
+- [Functionalities](#functionalities)
 - [Installation](#installation)
 
 
@@ -23,15 +23,18 @@ On changes about status of Covid-19 virus on the official website - [https://www
 #### Notification by Slack
 ![Image-Demo](https://github.com/abdulsmapara/Github-Media/blob/master/covid-19-status-notifier/slack-notification.png)
 
-## Features
+## Functionalities
 
-- Get notifications on Mattermost/Slack :
-	* New Corona Virus cases happening in India
-	* How many Indian nationals have Corona Virus per state ?
-	* How many deaths happened per state ?
+- NOTIFICATIONS on MATTERMOST/SLACK on:
+	* Increase in Covid-19 cases in India statewise
+	* Increase in cured/discharged/migrated cases in India statewise
+	* Increase in deaths per state
 	* New states getting the virus
-- Source is the official government website, so it is reliable
+- RELIABLE: Source is the official government website, so it is reliable
 - Logs important events in ```info.log```
+- Do you want to add any new functionality or modify existing ones ?
+	* Create an issue
+	* Raise a Pull Request
 
 ## Installation
 
