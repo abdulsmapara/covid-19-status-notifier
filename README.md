@@ -33,8 +33,7 @@ On changes about status of Covid-19 virus on the official website - [https://www
 - RELIABLE: Source is the official government website, so it is reliable
 - Logs important events in ```info.log```
 - Do you want to add any new functionality or modify existing ones ?
-	* Create an issue
-	* Raise a Pull Request
+	* Please go through [CONTRIBUTING.md](https://github.com/abdulsmapara/covid-19-status-notifier/blob/master/CONTRIBUTING.md) and contribute to this repository
 
 ## Installation
 
