@@ -49,8 +49,8 @@ On changes about status of Covid-19 virus on the official website - [https://www
     git clone https://github.com/abdulsmapara/covid-19-status-notifier.git
     ```
 	* ``` cd covid-19-status-notifier```
-	* Set ```<TO_SLACK>``` and/or ```<TO_MATTERMOST>``` to ```true``` depending on where you want to send notification to 
-	* Open ```consts.go``` and update ```<SLACK_WEBHOOK_URL>``` and/or ```<MATTERMOST_WEBHOOK_URL>``` with the webhook url available
+	* Set ```TO_SLACK``` and/or ```TO_MATTERMOST``` to ```true``` depending on where you want to send notification to 
+	* Open ```consts.go``` and update ```SLACK_WEBHOOK_URL``` and/or ```MATTERMOST_WEBHOOK_URL``` with the webhook url available
 	* Build the bot
 	```bash
 	go build main.go consts.go utils.go
