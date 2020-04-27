@@ -3,7 +3,6 @@
 	<h4 align="left">Bot that notifies Mattermost/Slack channel about the status of Covid-19 virus in India (by scanning the website - https://www.mohfw.gov.in/)</h4>
 </p>
 
-
 ## Table of Content
 - [About-the-bot](#about-the-bot)
 - [Demonstration](#demonstration)
