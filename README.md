@@ -1,6 +1,6 @@
 <p align="left">
-	<h1 align="left">Mattermost Virus Tracker Bot</h1>
-	<h5 align="left">Bot that notifies Mattermost channel about the status of Covid-19 virus in India (by scanning the website - https://www.mohfw.gov.in/)</h5>
+	<h1 align="left">Covid-19 Status Notifier</h1>
+	<h5 align="left">Bot that notifies Mattermost/Slack channel about the status of Covid-19 virus in India (by scanning the website - https://www.mohfw.gov.in/)</h5>
 </p>
 
 
@@ -19,6 +19,7 @@ On changes about status of Covid-19 virus on the official website - [https://www
 ## Demonstration
 
 ![Image-Demo](https://github.com/abdulsmapara/Github-Media/blob/master/screenshot1.1.png)
+Demo on Mattermost 
 
 ## Features
 
@@ -33,18 +34,19 @@ On changes about status of Covid-19 virus on the official website - [https://www
 ## Installation
 
 - Go language required
-- Mattermost account required
-- Mattermost Webhook URL required
+- Mattermost/Slack account required
+- Mattermost/Slack Webhook URL required
 - Get the required libraries:
 	* ```go get github.com/anaskhan96/soup```
 	* ```go get github.com/olekukonko/tablewriter```
 - Good to Go:
 	* Clone this repository
     ``` 
-    git clone https://github.com/abdulsmapara/mattermost-virus-tracker.git
+    git clone https://github.com/abdulsmapara/covid-19-status-notifier.git
     ```
-	* ``` cd mattermost-virus-tracker```
-	* Open ```consts.go``` and update ```<WEBHOOK-URL>``` with the webhook url
+	* ``` cd covid-19-status-notifier```
+	* Set ```<TO_SLACK>``` and/or ```<TO_MATTERMOST>``` to ```true``` depending on where you want to send notification to 
+	* Open ```consts.go``` and update ```<SLACK_WEBHOOK_URL>``` and/or ```<MATTERMOST_WEBHOOK_URL>``` with the webhook url available
 	* Build the bot
 	```bash
 	go build main.go consts.go utils.go
