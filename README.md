@@ -9,21 +9,24 @@
 - [Demonstration](#demonstration)
 - [Features](#features)
 - [Installation](#installation)
-- [Additional Info](#additional-info)
 
 
 ## About-the-bot
 
-On changes about status of Covid-19 virus on the official website - [https://www.mohfw.gov.in/](https://www.mohfw.gov.in/), the bot throws a message to Mattermost.
+On changes about status of Covid-19 virus on the official website - [https://www.mohfw.gov.in/](https://www.mohfw.gov.in/), the bot throws a message to Mattermost/Slack channel.
 
 ## Demonstration
 
 ![Image-Demo](https://github.com/abdulsmapara/Github-Media/blob/master/screenshot1.1.png)
-Demo on Mattermost 
+<p align="center">Demo on Mattermost Channel</p>
+
+![Image-Demo](https://github.com/abdulsmapara/Github-Media/blob/master/covid-19-status-notifier/slack-notification.png)
+<p align="center">Notification by Slack</p>
+
 
 ## Features
 
-- Get notifications on Mattermost :
+- Get notifications on Mattermost/Slack :
 	* New Corona Virus cases happening in India
 	* How many Indian nationals have Corona Virus per state ?
 	* How many deaths happened per state ?
@@ -57,8 +60,3 @@ Demo on Mattermost
 	# Run the bot every 10 minutes
 	*/10 * * * * cd $PATH_TO_CLONE_DIR;./main
 	```
-
-## Additional Info
-
- - Created by [@abdulsmapara](https://github.com/abdulsmapara)
- - Released under Apache 2.0 license
